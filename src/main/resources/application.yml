@@ -17,6 +17,8 @@ springdoc:
 #  show-actuator: true
   use-management-port: true
 
+allowed_origin_patterns: "http://localhost:7778"
+
 logging.level:
     org.springframework: info
     org.springdoc: debug
