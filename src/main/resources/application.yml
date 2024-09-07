@@ -1,2 +1,22 @@
 server.port: 7777
+
 spring.application.name: demo
+
+management:
+  endpoints.web.exposure.include: "health,info,openapi,swagger-ui"
+  server.port: 7778
+
+springdoc:
+  api-docs.enabled: true
+  swagger-ui:
+    enabled: true
+    display-request-duration: true
+    display-operation-id: true
+    syntax-highlight:
+      activated: true
+#  show-actuator: true
+  use-management-port: true
+
+logging.level:
+    org.springframework: info
+    org.springdoc: debug

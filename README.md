@@ -12,3 +12,4 @@ Use swagger-ui in a spring webflux project.
 ![swagger-ui.png](swagger-ui.png)
 
 3. access api-docs at http://localhost:7777/v3/api-docs
+4. move swagger-ui to actuator context path 
