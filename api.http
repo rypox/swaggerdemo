@@ -1,0 +1,7 @@
+### GET request to time endpoint (text)
+GET http://localhost:7777/api/time
+Accept: text/plain
+
+### GET request to time endpoint (json)
+GET http://localhost:7777/api/time
+Accept: application/json
